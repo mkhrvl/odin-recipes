@@ -1,10 +1,17 @@
+:root {
+    --off-white: #f9f1f1;
+    --pastel-gold: #ffefdb;
+    --gold: #ffab43;
+    --navy-blue: #284268;
+}
+
 * {
     margin: 0;
     padding: 0;
 }
 
 body {
-    background-color: 	#f9f1f1;
+    background-color: var(--off-white);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -28,20 +35,20 @@ a {
 }
 
 #index .card {
-    background-color: #ffefdb;
+    background-color: var(--pastel-gold);
     padding: 24px 48px;
-    border: 3px dashed 	#ffab43;
+    border: 3px dashed 	var(--gold);
     border-radius: 24px;
 }
 
 #index h1 {
     font-size: 52px;
     margin-bottom: 24px;
-    color: #284268;
+    color: var(--navy-blue);
 }
 
 #index hr {
-    border-top: 3px solid #ffab43;
+    border-top: 3px solid var(--gold);
     margin-bottom: 24px;
 
 }
@@ -54,7 +61,7 @@ a {
 }
 
 #index a {
-    color: #284268;
+    color: var(--navy-blue);
 }
 
 #index img {
