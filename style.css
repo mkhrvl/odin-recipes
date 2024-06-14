@@ -44,20 +44,22 @@ a {
 
 .index h1 {
     font-size: 52px;
-    margin-bottom: 24px;
     color: var(--navy-blue);
 }
 
 .index hr {
     border-top: 3px solid var(--gold);
-    margin-bottom: 24px;
-
 }
 
 .index ul {
     list-style-type: none;
     line-height: 2.5;
     font-size: 24px;
+}
+
+.index h1,
+.index hr,
+.index ul {
     margin-bottom: 24px;
 }
 
